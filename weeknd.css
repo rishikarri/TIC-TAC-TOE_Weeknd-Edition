@@ -1,0 +1,17 @@
+#board{
+	max-width: 640px;
+	min-width: 320px;
+	width: 75%;
+	margin: auto;
+	background-color: blue;
+}
+
+.square{
+	/* background-color: black; */
+	width: 28%;
+	height: 150px;
+	background-color: black;
+	color: ghostwhite;
+	padding: 30px 0;
+	margin: 2px;
+}

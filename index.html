@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- An exercise to practice bootstrap and jQuery -->
+		<title>Tic Tac Toe - Weeknd Rendition</title>
+		<link rel="stylesheet" type="text/css" href="weeknd.css">
+		
+
+		<!-- load up jQuery and bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+		<script type="text/javascript" src="weeknd.js"></script>
+
+	</head>
+	<body>
+		<!-- Make a container class -->
+		<div class="container">
+			<!-- first we make a row which has room for the title and space for text -->
+			<div class="row">
+				<div class="col-sm-12 text-center">
+					<h1>TIC TAC TOE</h1>
+					<h2 id="spaceForText">&nbsp</h2>
+				</div>
+			</div>
+
+
+				<!-- our next row is below the title and space for text, this contains the board -->
+			<div class="row text-center">
+				<div id="board">
+					<div class="row">
+						<button class="square"></button>
+						<button class="square"></button>
+						<button class="square"></button>
+					</div>
+
+					<div class="row">
+						<button class="square"></button>
+						<button class="square"></button>
+						<button class="square"></button>
+					
+					</div>
+
+					<div class="row">
+						<button class="square"></button>
+						<button class="square"></button>
+						<button class="square"></button>
+					</div>	
+				</div>
+
+				</div>
+			</div>
+		</div>
+			
+		
+	</body>
+</html>
