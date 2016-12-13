@@ -18,9 +18,9 @@
 		<!-- Make a container class -->
 		<div class="container">
 			<!-- first we make a row which has room for the title and space for text -->
-			<div class="row">
-				<div class="col-sm-12 text-center">
-					<h1>TIC TAC TOE</h1>
+			<div class="row text-center">
+				<div class="col-sm-12">
+					<h1>TIC TAC TOE (The Weeknd Edition)</h1>
 					<h2 id="spaceForText">&nbsp</h2>
 				</div>
 			</div>
@@ -30,26 +30,47 @@
 			<div class="row text-center">
 				<div id="board">
 					<div class="row">
-						<button class="square"></button>
-						<button class="square"></button>
-						<button class="square"></button>
+						<button id="A1" class="square"></button>
+						<button id="A2" class="square"></button>
+						<button id="A3" class="square"></button>
 					</div>
 
 					<div class="row">
-						<button class="square"></button>
-						<button class="square"></button>
-						<button class="square"></button>
-					
+						<button id="B1" class="square"></button>
+						<button id="B2" class="square"></button>
+						<button id="B3" class="square"></button>
 					</div>
 
 					<div class="row">
-						<button class="square"></button>
-						<button class="square"></button>
-						<button class="square"></button>
+						<button id="C1" class="square"></button>
+						<button id="C2" class="square"></button>
+						<button id="C3" class="square"></button>
 					</div>	
 				</div>
 
+			</div>
+
+
+
+			<div class="row text-center" id="player-list">
+				<div class="col-sm-3">
 				</div>
+
+				<div class="col-sm-3">
+					<img src="Images/X-marker.jpeg">
+					<p>Player 1</p>
+				</div>
+
+				<div class="col-sm-3">
+					<img src="Images/O-marker.jpeg">
+					<p>Player 2 </p>
+				</div>
+
+				<div class="col-sm-3">
+				</div>
+
+			</div>
+
 			</div>
 		</div>
 			
